@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+    margin: 10px auto;
+    padding: 30px 20px;
+    position: absolute;
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.header {
+    text-transform: uppercase;
+    background-color: cornflowerblue;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.h2 {
+    background-color: cornflowerblue;
+}
+
+table {
+    border: 2px solid black;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background: 1px solid black;
+    text-transform: uppercase;
+}
+
+thead {
+    background-color: lightblue;
+}
+
+.tags {
+    background-color: lightgreen;
+}
+
+.attr {
+    background-color: lightyellow;
+}
